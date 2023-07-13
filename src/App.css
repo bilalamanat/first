@@ -37,7 +37,7 @@
   }
 }
 .navbar {
-  background-color: #ffffff;
+  background-color: #6a00ff;
   height: 60px;
   display: flex;
   align-items: center;
@@ -55,7 +55,7 @@
 
 .navbar-brand {
   font-size: 24px;
-  color: #333333;
+  color: #eeff00;
   text-decoration: none;
 }
 
@@ -70,12 +70,12 @@
 
 .navbar-menu li a {
   font-size: 16px;
-  color: #333333;
+  color: #000000;
   text-decoration: none;
   transition: color 0.3s;
 }
 
 .navbar-menu li a:hover {
-  color: #555555;
+  color: #000000;
 }
 
