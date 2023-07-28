@@ -10,7 +10,7 @@ function Service() {
           <h1>We Provide Better</h1>
         </div>
         <div className="services-box">
-          {servicesData.slice(0, 2).map((service, index) => (
+          {servicesData.map((service, index) => (
             <div className="single-services" key={index}>
               <img src={service.image} />
               <div className="overlay" />

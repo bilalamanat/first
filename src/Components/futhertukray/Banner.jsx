@@ -1,35 +1,38 @@
-import React from 'react'
+import React from 'react';
+import bannerData from './bannerData.json';
 
 function Banner() {
+  const { imageSrc, title, description, buttons, navLinks, menuIconSrc, menuIconId } = bannerData;
+
   return (
-    <> 
     <section id="banner">
-    <img src="img/studio.png" className="logo" />
-    <div className="banner-text">
-      <h1>Hair Studio</h1>
-      <p>Style Your Hair is Style Your Life</p>
-      <div className="banner-btn">
-        <a href="#"><span />Find Out</a>
-        <a href="#"><span />Read More</a>
+      <img src={imageSrc} className="logo" />
+      <div className="banner-text">
+        <h1>{title}</h1>
+        <p>{description}</p>
+        <div className="banner-btn">
+          {buttons.map((button, index) => (
+            <a key={index} href={button.link}>
+              <span />
+              {button.text}
+            </a>
+          ))}
+        </div>
       </div>
-    </div>
-    <div id="sideNav">
-      <nav>
-        <ul>
-          <li><a href="#banner">HOME</a></li>
-          <li><a href="#FEATURES">FEATURES</a></li>
-          <li><a href="#services">SERVICES</a></li>
-          <li><a href="#testimonials">TESTIMONIALS</a></li>
-          <li><a href="#footer">MEET US</a></li>
-        </ul>
-      </nav>
-    </div>
-    <div id="manubtn">
-      <img src="img/menu-icon.svg" id="MANU" />
-    </div>
-  </section>
-  </>
-  )
+      <div id="sideNav">
+        <nav>
+          <ul>
+            {navLinks.map((link, index) => (
+              <li key={index}><a href={link.target}>{link.text}</a></li>
+            ))}
+          </ul>
+        </nav>
+      </div>
+      <div id="manubtn">
+        <img src={menuIconSrc} id={menuIconId} />
+      </div>
+    </section>
+  );
 }
 
-export default Banner
+export default Banner;
