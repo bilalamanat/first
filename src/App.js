@@ -4,6 +4,7 @@ import Navbar from "./Components/Nav/Navbar";
 
 
 
+
 function App() {
   const [wives, setWives] = useState(0);
 
@@ -35,6 +36,7 @@ function App() {
       <button onClick={addWife}>+</button>
       <button onClick={resetValue}>Reset</button>
     </div>
+   
   );
 }
 
