@@ -1,0 +1,23 @@
+[
+    {
+      "name": "HAIR STYLING",
+      "image": "img/hamam2.jpg",
+      "description": "Salons offer a wide range of haircare services such as haircuts, hairstyling, hair coloring, highlights, hair treatments."
+    },
+    {
+      "name": "BEARD TRIM",
+      "image": "img/berid.jpg",
+      "description": "Salons provide skincare services such as facials, skin treatments, exfoliation, acne treatments, anti-aging treatments, and skincare consultations."
+    },
+    {
+      "name": "HAIR CUT",
+      "image": "img/hamam5.jpg",
+      "description": "Salons often have professional makeup artists who offer makeup services for special occasions like weddings, parties, or photoshoots."
+    },
+    {
+      "name": "CHILD CUTING",
+      "image": "img/hamam4.jpg",
+      "description": "Some salons offer specialized services like henna application, hair straightening or perming, hair and scalp treatments, scalp massages, or specific beauty treatments based on cultural or regional preferences."
+    }
+  ]
+  
