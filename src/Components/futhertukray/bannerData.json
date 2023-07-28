@@ -5,6 +5,7 @@
     "buttons": [
       { "text": "Find Out", "link": "#" },
       { "text": "Read More", "link": "#" }
+     
     ],
     "navLinks": [
       { "text": "HOME", "target": "#banner" },
@@ -12,6 +13,7 @@
       { "text": "SERVICES", "target": "#services" },
       { "text": "TESTIMONIALS", "target": "#testimonials" },
       { "text": "MEET US", "target": "#footer" }
+      
     ],
     "menuIconSrc": "img/menu-icon.svg",
     "menuIconId": "MANU"

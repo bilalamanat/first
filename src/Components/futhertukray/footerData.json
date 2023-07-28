@@ -1,0 +1,20 @@
+{
+    "imageSrc": "img/vecter.png",
+    "contactTitle": "CONTACT",
+    "shopTitle": "Visit Shop Today",
+    "openingHours": [
+      { "day": "Monday To Friday", "time": "9AM To 9PM" },
+      { "day": "Saturday To Sunday", "time": "8AM To 11PM" }
+    ],
+    "address": "#30 Shahzada Model City Chunian, XYZ City In Chunian",
+    "email": "example@website.com",
+    "phone": "+92 3194476740",
+    "socialLinks": [
+      { "icon": "fab fa-facebook", "url": "https://web.facebook.com/" },
+      { "icon": "fab fa-instagram", "url": "https://www.instagram.com/bilalamanatmuhammadi/" },
+      { "icon": "fab fa-tiktok", "url": "https://www.tiktok.com/@bilalamanatmuhammadi?lang=en/" },
+      { "icon": "fab fa-youtube", "url": "https://www.youtube.com/channel/UCedD9jYhdMOCy-n6eqfMeMQ" }
+    ],
+    "copyright": "Copyright Easy Tutorial Youtube Channel"
+  }
+  
