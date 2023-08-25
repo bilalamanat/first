@@ -1,6 +1,7 @@
 import React from 'react';
 import bannerData from './bannerData.json';
 
+
 function Banner() {
   const { imageSrc, title, description, buttons, navLinks, menuIconSrc, menuIconId } = bannerData;
 
@@ -32,6 +33,7 @@ function Banner() {
         <img src={menuIconSrc} id={menuIconId} />
       </div>
     </section>
+    
   );
 }
 
