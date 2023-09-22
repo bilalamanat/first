@@ -6,7 +6,7 @@ function Feature() {
      <section id="FEATURES">
     <div className="title-text">
       <p>FEATURES</p>
-      <h1>Why Chose US</h1>
+      <h1>WHY CHOUSE US</h1>
     </div>
     <div className="FEATURES-box">
       <div className="FEATURES">
