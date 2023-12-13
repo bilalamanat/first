@@ -3,8 +3,8 @@
     "title": "Hair Studio",
     "description": "Style Your Hair is Style Your Life",
     "buttons": [
-      { "text": "Find Out", "link": "#" },
-      { "text": "Read More", "link": "#" }
+      { "text": "Find Out", "link": "https://aamax.co/" },
+      { "text": "Read More", "link": "https://aamax.co/" }
      
     ],
     "navLinks": [
