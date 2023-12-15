@@ -33,7 +33,7 @@ function BarberShop() {
   }, []);
   return (
     <div>
-    <title>Bilal Shop Website Design</title>
+    <title>Bilal Shop Website</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
